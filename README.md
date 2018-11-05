@@ -73,10 +73,10 @@ npm run lint
 ## 效果展示
 
 - 欢迎页
-![image](https://github.com/quinn-xie/quinn-resume/assets/thumbnail/home.jpg)
+![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/home.jpg)
 
 - 个人简介
-![image](https://github.com/quinn-xie/quinn-resume/assets/thumbnail/about.jpg)
+![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/about.jpg)
 
 - 十八般武艺
 ![image]()
@@ -88,6 +88,6 @@ npm run lint
 ![image]()
 
 - 如意兵器谱
-![image](https://github.com/quinn-xie/quinn-resume/assets/thumbnail/tools.jpg)
+![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/tools.jpg)
 
 Copyright (c) 2018, Quinn.xie
