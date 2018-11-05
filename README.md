@@ -1,12 +1,15 @@
 # quinn-resume
 
 <p align="center">
-    <img width="200" src="">
+    <img width="200" src="https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/logo.png">
 </p>
 
 <p align="center">
   <a href="https://github.com/vuejs/vue">
     <img src="https://img.shields.io/badge/vue-2.5.17-brightgreen.svg" alt="GitHub vue">
+  </a>
+  <a href="https://cli.vuejs.org/">
+    <img src="https://img.shields.io/badge/vue-cli-3.x-brightgreen.svg" alt="Vue-CLI vue">
   </a>
   <a href="https://github.com/iview/iview">
     <img src="https://img.shields.io/badge/iview-3.1.3-green.svg" alt="GitHub iview-ui">
@@ -77,15 +80,6 @@ npm run lint
 
 - 个人简介
 ![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/about.jpg)
-
-- 十八般武艺
-![image]()
-
-- 用武圣地
-![image]()
-
-- 口诀心法
-![image]()
 
 - 如意兵器谱
 ![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/tools.jpg)
