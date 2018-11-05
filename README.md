@@ -1,4 +1,4 @@
-# my-project
+# quinn-resume
 
 ## Project setup
 ```
