@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/vue-2.5.17-brightgreen.svg" alt="GitHub vue">
   </a>
   <a href="https://cli.vuejs.org/">
-    <img src="https://img.shields.io/badge/vue-cli-3.x-brightgreen.svg" alt="Vue-CLI vue">
+    <img src="https://img.shields.io/badge/vue--cli-3.x-brightgreen.svg" alt="Vue-CLI vue">
   </a>
   <a href="https://github.com/iview/iview">
     <img src="https://img.shields.io/badge/iview-3.1.3-green.svg" alt="GitHub iview-ui">
