@@ -1,7 +1,7 @@
 # quinn-resume
 
 <p align="center">
-    <img width="200" src="https://file.iviewui.com/logo-new.svg">
+    <img width="200" src="">
 </p>
 
 <p align="center">
@@ -9,16 +9,16 @@
     <img src="https://img.shields.io/badge/vue-2.5.17-brightgreen.svg" alt="GitHub vue">
   </a>
   <a href="https://github.com/iview/iview">
-    <img src="https://img.shields.io/badge/iview-3.1.3-brightgreen.svg" alt="GitHub iview-ui">
+    <img src="https://img.shields.io/badge/iview-3.1.3-green.svg" alt="GitHub iview-ui">
   </a>
   <a href="https://github.com/axios/axios" rel="nofollow">
-    <img src="https://img.shields.io/badge/axios-0.18.0-brightgreen.svg" alt="GitHub axios">
+    <img src="https://img.shields.io/badge/axios-0.18.0-yellow.svg" alt="GitHub axios">
   </a>
   <a href="https://github.com/kazupon/vue-i18n">
-    <img src="https://img.shields.io/badge/vue--i18n-8.3.0-brightgreen.svg" alt="GitHub vue-i18n">
+    <img src="https://img.shields.io/badge/vue--i18n-8.3.0-orange.svg" alt="GitHub vue-i18n">
   </a>
   <a href="https://github.com/daneden/animate.css">
-    <img src="https://img.shields.io/badge/animate-3.7.0-brightgreen.svg" alt="GitHub animate">
+    <img src="https://img.shields.io/badge/animate-3.7.0-blue.svg" alt="GitHub animate">
   </a>
 </p>
 
@@ -73,29 +73,21 @@ npm run lint
 ## 效果展示
 
 - 欢迎页
-![image](https://github.com/iview/iview-admin/raw/dev/github-gif/home.gif)
+![image](https://github.com/quinn-xie/quinn-resume/assets/thumbnail/home.jpg)
 
 - 个人简介
-![image](https://github.com/iview/iview-admin/raw/dev/github-gif/page-tags.gif)
+![image](https://github.com/quinn-xie/quinn-resume/assets/thumbnail/about.jpg)
 
 - 十八般武艺
-![image](https://github.com/iview/iview-admin/raw/dev/github-gif/access.gif)
+![image]()
 
 - 用武圣地
-![image](https://github.com/iview/iview-admin/raw/dev/github-gif/dragable-list.gif)
+![image]()
 
 - 口诀心法
-![image](https://github.com/iview/iview-admin/raw/dev/github-gif/image-editor.gif)
+![image]()
 
 - 如意兵器谱
-![image](https://github.com/iview/iview-admin/raw/dev/github-gif/upload.gif)
-
-
-### 💖💖 If you find this project helpful, maybe you can buy me a coffee. 💖💖
-![image](https://github.com/iview/iview-admin/raw/dev/github-gif/code.png)
-
-
-## License
-[MIT](http://opensource.org/licenses/MIT)
+![image](https://github.com/quinn-xie/quinn-resume/assets/thumbnail/tools.jpg)
 
 Copyright (c) 2018, Quinn.xie
