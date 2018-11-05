@@ -1,8 +1,8 @@
 /*
- * @Author: share.xie 
- * @Date: 2018-11-01 10:39:11 
- * @Last Modified by: share.xie
- * @Last Modified time: 2018-11-02 17:28:55
+ * @Author: quinn.xie 
+ * @Date: 2018-11-05 14:47:54 
+ * @Last Modified by:   quinn.xie 
+ * @Last Modified time: 2018-11-05 14:47:54 
  */
 
 export const  nav = {
