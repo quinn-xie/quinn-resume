@@ -1,88 +1,141 @@
 <template>
-    <div class="waterFallBox">
+    <div class="waterFallBox" style="margin-top:-60px;">
         <i class="iconfont icon-num-five bgNum"></i>
         <div class="waterfall">
         <div class="list">
             <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=1703170148,509739528&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imga.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img4.imgtn.bdimg.com/it/u=2124921377,986943725&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgb.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img4.imgtn.bdimg.com/it/u=1180534962,1593724630&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgc.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img5.imgtn.bdimg.com/it/u=3727324863,2390693094&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgf.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=1203674896,3661907330&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgd.jpg">
                 <p>1 convallis times tafawe  fawef awefamp</p>
            </div>
            <div class="item">
-                <img src="http://img0.imgtn.bdimg.com/it/u=957368689,3522141825&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imge.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=3061488183,916579409&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgg.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=3110901364,2529570500&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgh.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img1.imgtn.bdimg.com/it/u=2506029281,2937209232&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgi.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=3151326490,1170857960&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgj.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=1703170148,509739528&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgk.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img4.imgtn.bdimg.com/it/u=2124921377,986943725&fm=26&gp=0.jpg">
-                <p>1 convallis timestafawefawefawefamp</p>
-           </div>
-           <div class="item">
-                <img src="http://img4.imgtn.bdimg.com/it/u=1180534962,1593724630&fm=26&gp=0.jpg">
-                <p>1 convallis timestafawefawefawefamp</p>
-           </div>
-           <div class="item">
-                <img src="http://img5.imgtn.bdimg.com/it/u=3727324863,2390693094&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imga.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=1203674896,3661907330&fm=26&gp=0.jpg">
-                <p>1 convallis timestafawefawefawefamp</p>
-           </div>
-           <div class="item">
-                <img src="http://img0.imgtn.bdimg.com/it/u=957368689,3522141825&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgb.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=3061488183,916579409&fm=26&gp=0.jpg">
-                <p>1 convallis timestafawefawefawefamp</p>
-           </div>
-           <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=3110901364,2529570500&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgc.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
            <div class="item">
-                <img src="http://img1.imgtn.bdimg.com/it/u=2506029281,2937209232&fm=26&gp=0.jpg">
-                <p>1 convallis timestafawefawefawefamp</p>
-           </div>
-           <div class="item">
-                <img src="http://img2.imgtn.bdimg.com/it/u=3151326490,1170857960&fm=26&gp=0.jpg">
+                <img src="@/assets/img/imgf.jpg">
                 <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
            </div>
+           <div class="item">
+                <img src="@/assets/img/imgd.jpg">
+                <p>1 convallis times tafawe  fawef awefamp</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imge.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgg.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imga.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgb.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgc.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgf.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgd.jpg">
+                <p>1 convallis times tafawe  fawef awefamp</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imge.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgg.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgh.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgi.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgj.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgk.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgh.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgi.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgj.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           <div class="item">
+                <img src="@/assets/img/imgk.jpg">
+                <p>afa awe lkjaifowan njfn opnwfj ioiolhbhjg ajfl dsnalnn jioawfbhkjl fjdkk</p>
+           </div>
+           
         </div>
     </div>
     </div>

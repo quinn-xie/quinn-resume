@@ -112,7 +112,7 @@ export default {
     width: 50%;
     padding: 20px;
     display: inline-block;
-    float: right
+    float:right
   }
   .title {
     color: #65c7d0;

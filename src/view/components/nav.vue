@@ -21,7 +21,7 @@
 <style lang="scss">
     @import "./../../assets/css/color.scss";
     //菜单样式
-    .nav {
+    .nav { 
         width:150px;
         font-size:14px;
         text-decoration: none;
