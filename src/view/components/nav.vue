@@ -13,11 +13,13 @@
     export default {
         name: 'dxMenu',
         created() {
-            console.log('thispage ==> keep-alive:' + this.$route.meta.keepAlive) //当前路由是否缓存
+            // console.log('thispage ==> keep-alive:' + this.$route.meta.keepAlive) //当前路由是否缓存
+            // alert('路由===' + JSON.stringify(this.$router))
         }
     }
 </script>
 <style lang="scss">
+    @import "./../../assets/css/color.scss";
     //菜单样式
     .nav {
         width:150px;
@@ -36,7 +38,7 @@
             display: inline-block;
             vertical-align: middle;
             margin: 0 20px;
-            color:#00f883;
+            color:$green;
         }
         a{
             color:rgba(255, 255, 255, .5);
@@ -50,7 +52,7 @@
             display: inline-block;
             text-align: left;
             &:hover{
-                color:#00f883;
+                color:$green;
                 transform: rotate(5deg) scale(1.1);
                 &::before, &::after{
                     transition: all 0.3s ease;
@@ -60,7 +62,7 @@
             }
             &::before,&::after{
                 opacity: 0;
-                border-top: 1px solid #00f883;
+                border-top: 1px solid $green;
                 content: '';
                 display: block;
                 position: relative;
@@ -78,7 +80,7 @@
 
         }
         .router-link-exact-active{ //当前路由样式
-            color:#00f883;
+            color:$green;
             transform: rotate(5deg) scale(1.1);
              &::before, &::after{
                     transition: all 0.3s ease;

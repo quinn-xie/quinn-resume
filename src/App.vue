@@ -50,13 +50,14 @@ export default {
 </script>
 
 <style lang="scss">
+ @import "./assets/css/color.scss";
   #app {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    margin-top: 80px;
   }
   //语言切换
   .lang{
@@ -71,7 +72,7 @@ export default {
       font-size:45px;
     }
     .active{
-      color: #00f883;
+      color: $green;
       opacity: 1;
     }
   }
@@ -88,7 +89,7 @@ export default {
     // transform:translate3d(50%, 0, 0); // 自右向左
     // transform:translate3d(0, 50%, 0); // 自下而上
     // transform:rotateX(90deg); // 绕X轴旋转
-    transform:rotateY(90deg); // 绕Y轴旋转
+    // transform:rotateY(90deg); // 绕Y轴旋转
     opacity: 0;
   }
   

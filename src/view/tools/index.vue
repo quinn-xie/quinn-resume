@@ -181,6 +181,7 @@
     }
 </script>
 <style lang="scss">
+  @import "./../../assets/css/color.scss";
   .process-box{
     width: 100%;
     height:450px;
@@ -196,35 +197,35 @@
           width: 196px;height: 196px;transform:rotate(45deg);
           border:1px solid #ddd;margin-top: 42px;margin-left: 42px;
         }
-        .boxa{top: 0;left: 0;z-index: 1;border: 1px solid #00f883;opacity: .1;}
-        .boxb{left: 10px;top: 0px;z-index: 2;border: 1px solid #00f883;
+        .boxa{top: 0;left: 0;z-index: 1;border: 1px solid $green;opacity: .1;}
+        .boxb{left: 10px;top: 0px;z-index: 2;border: 1px solid $green;
             // background-image:linear-gradient(#3d464b,#6b7e84);
             background-image: url('../../assets/img/bg.png');
         }
         .texta{ 
           width: 276px; height: 276px; text-align:center;z-index: 3; position: absolute; left: 7px; top:2px;
-          .num{ margin-top:50px; font-size:90px; color: #00f883; display: inline-block;}
-          .title{ font-size:20px; color: #00f883; }
+          .num{ margin-top:50px; font-size:90px; color: $green; display: inline-block;}
+          .title{ font-size:20px; color: $green; }
         }
         .textb{ 
           width: 276px; height: 276px; z-index:4; position: absolute; left: 5px; top: 0px; display: none; 
           .mengban{
-            border:1px solid #42b983;position: absolute;z-index:1;width:196px;height:196px;
-            transform:rotate(45deg); background: #42b983;margin-top:42px;margin-left:47px;
+            border:1px solid $duck_green;position: absolute;z-index:1;width:196px;height:196px;
+            transform:rotate(45deg); background: $duck_green;margin-top:42px;margin-left:47px;
           }
           .desc{
             position:absolute; z-index:2; width:160px;top:85px;left:60px;font-size:14px; color: #fff; text-align:center; line-height:24px;
             .toUrl{
               display: table; margin:10px auto;padding:2px 10px;border:1px dashed #ffffff;border-radius:5px;color:#ffffff;
               &:hover{
-                background:#ffffff;color:#42b983;
+                background:#ffffff;color:$duck_green;
               }
             }
           }
         }
         &:hover .textb{
-          // animation: flipInX .8s;
-          animation:jackInTheBox .5s;
+          animation: flipInX .8s;
+          // animation:jackInTheBox .5s;
           display: block;
         }
       }

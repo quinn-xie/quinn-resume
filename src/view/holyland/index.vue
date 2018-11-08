@@ -1,62 +1,17 @@
 <template>
-	<div class="content">
+	<div class="content" style="width:1100px;">
     <i class="iconfont icon-num-four bgNum"></i>
 		<div class="main-timeline">
-			<div class="timeline">
-				<a href="#" class="timeline-content">
-					<span class="timeline-year">1235899896</span>
-					<div class="timeline-icon">
-						<i class="fa fa-users"></i>
-					</div>
+			<div class="timeline" v-for="(item,index) in holylandList" :key="index">
+				<div class="timeline-content">
+					<span class="timeline-year">{{item.date}}</span>
 					<div class="content">
-						<h3 class="title">Java Script</h3>
+						<h3 class="title">{{item.title}}</h3>
 						<p class="description">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi dolor in, maiores natus ipsum dolor sit amet, consectetur adipisicing elit. Alias animi dolor in, maiores natus.
+							{{item.desc}}
 						</p>
 					</div>
-				</a>
-			</div>
-			<div class="timeline">
-				<a href="#" class="timeline-content">
-					<span class="timeline-year">1235899896</span>
-					<div class="timeline-icon">
-						<i class="fa fa-globe"></i>
-					</div>
-					<div class="content">
-						<h3 class="title">Web Designing</h3>
-						<p class="description">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi dolor in, maiores natus ipsum dolor sit amet, consectetur adipisicing elit. Alias animi dolor in, maiores natus.
-						</p>
-					</div>
-				</a>
-			</div>
-			<div class="timeline">
-				<a href="#" class="timeline-content">
-					<span class="timeline-year">1235899896</span>
-					<div class="timeline-icon">
-						<i class="fa fa-briefcase"></i>
-					</div>
-					<div class="content">
-						<h3 class="title">Web Development</h3>
-						<p class="description">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi dolor in, maiores natus ipsum dolor sit amet, consectetur adipisicing elit. Alias animi dolor in, maiores natus.
-						</p>
-					</div>
-				</a>
-			</div>
-			<div class="timeline">
-				<a href="#" class="timeline-content">
-					<span class="timeline-year">1235899896</span>
-					<div class="timeline-icon">
-						<i class="fa fa-users"></i>
-					</div>
-					<div class="content">
-						<h3 class="title">saf vgasg bsgbb</h3>
-						<p class="description">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi dolor in, maiores natus ipsum dolor sit amet, consectetur adipisicing elit. Alias animi dolor in, maiores natus.
-						</p>
-					</div>
-				</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -65,15 +20,24 @@
 export default {
 	data () {
 		return {
+      holylandList:[]
 		}
 	},
 	created () {
+    this.loadData()
 	},
 	methods: {
+    loadData(){
+        const _this = this
+        _this.$axios.get('/holylandList').then((rs) => {
+            _this.holylandList = rs.data
+        })
+    }
 	}
 }
 </script>
 <style lang="scss">
+@import "./../../assets/css/color.scss";
 .main-timeline {
   font-family: "Roboto", sans-serif;
   padding: 20px 0;
@@ -96,13 +60,15 @@ export default {
     z-index: 1;
     &::before,&::after{
       content: "";
-      height: 100%;width: 50%;border-radius: 100px 0 0 100px;
+      height: 100%;width: 50%;
+      border-radius: 150px 0 0 150px;
       border: 15px solid #46b2bc;
       border-right: none;position: absolute;
       left: 0;top: 0;z-index: -1;
     }
     &::before{
       background-image:linear-gradient(#6b7e84,#3d464b);
+      opacity: .6;
     }
     &::after{
       height: calc(100% - 30px);
@@ -113,7 +79,7 @@ export default {
     &:nth-child(even):before {
       left: auto;
       right: 0;
-      border-radius: 0 100px 100px 0;
+      border-radius: 0 150px 150px 0;
       border: 15px solid red;
       border-left: none;
     }
@@ -122,7 +88,7 @@ export default {
       right: 12px;
       border: 15px solid green;
       border-left: none;
-      border-radius: 0 100px 100px 0;
+      border-radius: 0 150px 150px 0;
     }
   }
   .timeline-content {
@@ -140,15 +106,6 @@ export default {
     position: absolute;
     top: 50%;
     left: 10%;
-  }
-  .timeline-icon {
-    color: #65c7d0;
-    font-size: 80px;
-    display: inline-block;
-    transform: translateY(-50%);
-    position: absolute;
-    left: 34%;
-    top: 50%;
   }
   .content {
     color: #909090;
@@ -169,30 +126,26 @@ export default {
     font-size: 15px;
     letter-spacing: 1px;
     margin: 0;
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 
 .main-timeline .timeline:nth-child(even) .content {float: left;}
 .main-timeline .timeline:nth-child(even) .timeline-year {left: auto;right:10%;}
-.main-timeline .timeline:nth-child(even) .timeline-icon {left: auto; right: 32%;}
 .main-timeline .timeline:nth-child(5n + 2):before {border-color: #42b983;}
 .main-timeline .timeline:nth-child(5n + 2):after {border-color: #33ca86;}
-.main-timeline .timeline:nth-child(5n + 2) .timeline-icon {color: #42b983;}
 .main-timeline .timeline:nth-child(5n + 2) .timeline-year {color: #42b983;}
 .main-timeline .timeline:nth-child(5n + 2) .title {color: #42b983;}
-.main-timeline .timeline:nth-child(5n + 3):before {border-color: #8cc63e;}
-.main-timeline .timeline:nth-child(5n + 3):after {border-color: #6caf29;}
-.main-timeline .timeline:nth-child(5n + 3) .timeline-icon {color: #8cc63e;}
-.main-timeline .timeline:nth-child(5n + 3) .timeline-year {color: #8cc63e;}
-.main-timeline .timeline:nth-child(5n + 3) .title {color: #8cc63e;}
-.main-timeline .timeline:nth-child(5n + 4):before {border-color: #f99324;}
-.main-timeline .timeline:nth-child(5n + 4):after {border-color: #fbb03b;}
-.main-timeline .timeline:nth-child(5n + 4) .timeline-icon {color: #f99324;}
-.main-timeline .timeline:nth-child(5n + 4) .timeline-year {color: #f99324;}
-.main-timeline .timeline:nth-child(5n + 4) .title {color: #f99324;}
+.main-timeline .timeline:nth-child(5n + 3):before {border-color: #00f883;}
+.main-timeline .timeline:nth-child(5n + 3):after {border-color: #20f883;;}
+.main-timeline .timeline:nth-child(5n + 3) .timeline-year {color: #00f883;}
+.main-timeline .timeline:nth-child(5n + 3) .title {color: #00f883;}
+.main-timeline .timeline:nth-child(5n + 4):before {border-color: #ffff66;}
+.main-timeline .timeline:nth-child(5n + 4):after {border-color: #eaea83;}
+.main-timeline .timeline:nth-child(5n + 4) .timeline-year {color: #ffff66;}
+.main-timeline .timeline:nth-child(5n + 4) .title {color: #ffff66;}
 .main-timeline .timeline:nth-child(5n + 5):before {border-color: #0071bd;}
 .main-timeline .timeline:nth-child(5n + 5):after {border-color: #0050a3;}
-.main-timeline .timeline:nth-child(5n + 5) .timeline-icon {color: #0071bd;}
 .main-timeline .timeline:nth-child(5n + 5) .timeline-year {color: #0071bd;}
 .main-timeline .timeline:nth-child(5n + 5) .title {color: #0071bd;}
 </style>

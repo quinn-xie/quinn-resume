@@ -32,6 +32,7 @@
     }
 </script>
 <style lang="scss">
+    @import "./../../assets/css/color.scss";
     .welcome{
         width:930px;
         margin: 200px auto;
@@ -46,7 +47,7 @@
            transition: all .2s;
            &:hover{
                transform: scale(1.2,1.2);
-               color:#00f883;
+               color:$green;
                cursor:none;
            }
        }

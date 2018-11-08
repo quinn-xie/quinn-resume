@@ -21,8 +21,7 @@
             </div>
         </div>
         <div class="fed">
-            <div class="effect"><span>F</span><span>r</span><span>o</span><span>n</span><span>t</span>
-            <span>e</span><span>n</span><span>d</span><span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span></div>
+            <div class="effect"><span>F</span><span>r</span><span>o</span><span>n</span><span>t</span><span>-</span><span>e</span><span>n</span><span>d</span><span>-</span><span>E</span><span>n</span><span>g</span><span>i</span><span>n</span><span>e</span><span>e</span><span>r</span></div>
         </div>
     </div>
 </template>
@@ -41,7 +40,8 @@
     }
 </script>
 <style lang="scss">
- .fed{
+    @import "./../../assets/css/color.scss";
+    .fed{
      width: 100%;
      margin-top:80px;
      .effect{
@@ -50,7 +50,7 @@
         position: relative;
         span{
             display:inline-table;
-            background:#00f883;
+            background:$green;
             padding:2px 12px;
             font-size:30px;
             text-shadow: 1px 0px 0px #555;
@@ -64,7 +64,7 @@
         span:nth-child(even){
             transform: skewY(15deg);
             transform-origin: 100% 100%;
-            background:#03b15e;
+            background:rgba($color: $green, $alpha: .5)
         }
      }
      .effect:nth-child(even){
@@ -95,10 +95,10 @@
           }
         }
         .js{font-size:30px; right:-510px;top:100px;opacity:.3;}
-        .css{font-size:45px;right:-510px; top:-50px;color:#00f883;opacity:.8;}
+        .css{font-size:45px;right:-510px; top:-50px;color:$green;opacity:.8;}
         .wp{font-size:28px;right:-460px;top:30px;opacity:.3;}
         .node{font-size:25px;right:-560px;top:45px;opacity:.3;}
-        .vue{font-size:35px;left:-60px;top:20px;color:#00f883;opacity:.6;}
+        .vue{font-size:35px;left:-60px;top:20px;color:$green;opacity:.6;}
         .h5{font-size:40px;left:-30px;top:80px;opacity:.3;}
         .canvas{font-size:30px;left:40px;top:-50px;opacity:.3;}
         .sass{font-size:22px;left:90px;top:20px;opacity:.5;}
@@ -110,7 +110,7 @@
         overflow: hidden;
         display: inline-block;
         border-radius:100%;
-        border:5px solid #00f883;
+        border:5px solid $green;
         img{width: 100%}
         &:hover{
             animation :swing .8s
@@ -129,7 +129,7 @@
             height: 370px;
             left: 50%;
             top: -5px;
-            background:#00f883;
+            background:$green;
         }
         dl,dt,dd{padding: 0;margin: 0;}
         dt,dd{display: inline-block; width:48%;box-sizing: border-box}
@@ -137,8 +137,8 @@
             display: block;font-size:16px;line-height: 50px; height: 50px; transition: all .5s;color:#ffffff;
             &:hover{
                 font-size: 20px;
-                color:#00f883;
-                dd i{font-size:40px;color:#00f883;}
+                color:$green;
+                dd i{font-size:40px;color:$green}
             }
         }
         dt{

@@ -1,4 +1,4 @@
-# quinn-resume
+# QUINN-RESUME
 
 <p align="center">
     <img width="200" src="https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/logo.png">
@@ -51,7 +51,7 @@ npm run lint
 ```
 
 ## 简介
-&emsp;&emsp;本项目是个人项目，不定时优化，如果得到认可，欢迎Star。
+&emsp;&emsp;纯静态个人项目，注重展示效果，不定时优化。
 
 ## 文件结构
 ```shell
@@ -63,6 +63,7 @@ npm run lint
         ├── iconfont  自定义图标资源[http://www.iconfont.cn]
         ├── img  图片资源
         ├── lang  i18n用语言包
+        ├── thumbnail  页面缩图
         └── css  全站样式
     ├── components  公共组件
     ├── home  欢迎页
