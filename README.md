@@ -82,6 +82,15 @@ npm run lint
 - 个人简介
 ![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/about.jpg)
 
+- 十八般武艺
+![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/skills.jpg)
+
+- 用武圣地
+![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/holyland.jpg)
+
+- 口诀心法
+![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/formula.jpg)
+
 - 如意兵器谱
 ![image](https://github.com/quinn-xie/quinn-resume/blob/master/src/assets/thumbnail/tools.jpg)
 
